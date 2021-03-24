@@ -1,0 +1,512 @@
+
+body,h1,h2,h3,h4,h5,h6,p,span{
+  font-family: Sans-Serif;
+  
+}
+
+.bg-color{
+  background:#e1f5fa;
+  
+  
+}
+img{
+  max-width: 100%;
+  
+}
+.bijoy .logo{
+  height: 45px;
+  width: 45px;
+  
+}
+.bijoy span{
+  font-size: 30px;
+  font-weight: 500;
+}
+.jon-menu{
+  margin-left: 50px;
+}
+.jon-menu .hii{
+  font-weight: 500;
+  font-size: 20px;
+}
+.hii{
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+/*slider-section*/
+.slider-section{
+background-image:url(https://i.ibb.co/QJdcFnv/mbr-4.jpg);
+background-size: cover;
+padding: 200px 0px;
+position: relative;
+z-index: 1;
+}
+.slider-section::after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background:#292b2b;
+  opacity: .4;
+  z-index: -1;
+  
+}
+.slider-caption{
+  width: 600px;
+  margin: auto;
+}
+.slider-caption h4{
+  font-size: 35px;
+  padding: 10px 0px;
+  font-weight: 400;
+  
+}
+.slider-caption h2{
+  font-size: 40px;
+  padding: 10px 0px;
+  font-weight: 500;
+}
+.slider-caption form{}
+.slider-caption .form-control{
+  padding: 12px 20px;
+  font-size: 20px;
+}
+.slider-caption .btn{
+  color: white;
+  font-weight: bold;
+  background:rgba(0,176,53,0.902);
+  font-size: 20px;
+  display: block;
+  padding: 10px 20px;
+}
+/*number counter-section*/
+.number-counter-section{
+  margin-top: 50px;
+}
+.number-counter .h2{
+  margin-top: 30px;
+  font-size: 60px;
+  
+}
+/*About-section*/
+.about-section{
+  
+  margin-top: 70px;
+}
+.about-section-left h2{
+  margin-top: 25px;
+  font-size: 40px;
+  padding: 10px;
+  font-weight: bold;
+}
+.about-section-left p{
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 300;
+  line-height: 2.5rem;
+  
+}
+/*future-section*/
+.future-section{
+  margin-top: 70px;
+}
+.future-item{
+  height: 300px;
+  box-shadow:4px 4px 30px #8b9092;
+}
+.left-img1{
+  width: 40%;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 100%;
+}
+.left-img1 img{
+  height: 100%;
+  width: auto;
+  max-width: inherit;
+  position: relative;
+  margin-left: -90px;
+}
+.right-text{
+  padding: 15px;
+  width: 60%;
+}
+.left-img2{
+  width: 40%;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 100%;
+}
+.left-img2 img{
+  height: 100%;
+  width: auto;
+  max-width: inherit;
+  position: relative;
+  margin-left: -75px;
+}
+.left-img3{
+  width: 40%;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 100%;
+}
+.left-img3 img{
+  height: 100%;
+  width: auto;
+  max-width: inherit;
+  position: relative;
+  margin-left: -30px;
+}
+.left-img4{
+  width: 40%;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 100%;
+}
+.left-img4 img{
+  height: 100%;
+  width: auto;
+  max-width: inherit;
+  position: relative;
+  margin-left: -140px;
+}
+.left-img5{
+  width: 40%;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 100%;
+}
+.left-img5 img{
+  height: 100%;
+  width: auto;
+  max-width: inherit;
+  position: relative;
+  margin-left: 120px;
+}
+.left-img6{
+  width: 40%;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 100%;
+}
+.left-img6 img{
+  height: 100%;
+  width: auto;
+  max-width: inherit;
+  position: relative;
+  margin-left: -130px;
+}
+/*portfolio-section*/
+.portfolio-section{
+  margin-top: 70px;
+}
+.portfolio-text{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  padding: 20px;
+}
+.portfolio-item{}
+.portfolio-item a{
+  position: relative;
+  display: block;
+}
+
+.portfolio-item a::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background:rgba(166,68,255,0.739);
+  
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+  
+}
+.portfolio-item:hover ::after{
+  opacity: 1;
+  visibility: visible;
+  
+  
+}
+/*pricing-section*/
+.pricing-table-section{}
+.pricing-table-section-text h2{
+  font-size: 40px;
+  font-weight: 400;
+}
+.pricing-table-section-text .lead{}
+.pricing-item{
+  margin-top: 70px;
+  background:#ffffff;
+  padding: 20px;
+box-shadow:4px 4px 30px #8b9092;
+border-radius: 5px;
+}
+.pricing-item .h{
+  font-size: 30px;
+}
+.pricing-item .hh{
+  font-size: 20px;
+}
+.pricing-item ul{
+  list-style: none;
+margin-left: 0px;
+  padding-left: 0px;
+}
+.pricing-item ul li{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #777;
+}
+.pricing-item ul li span{
+  color: #6278df;
+  margin-right: 20px;
+  font-size: 25px;
+  
+}
+.pricing-item .btn{
+  margin-top: 10px;
+  border-color: #6278df;
+  border-width: 3px;
+  color: #6278df;
+  font-size: 20px;
+}
+/*testimonial-section*/
+.testimonial-section{
+  margin-top: 70px;
+}
+.testimoial-item .no{
+  font-size: 30px;
+  font-size: 400;
+  
+}
+.author-info{
+  
+  
+  width: 250px;
+  margin: auto;
+}
+.author-info img{
+  float: left;
+  width: 100px;
+  margin-right: 10px;
+}
+.author-details{
+  position: relative;
+  top: 30px;
+  float: left;
+}
+.quote{
+  font-size: 60px;
+  opacity: .5;
+  
+}
+.lead{
+  font-size: 20px;
+}
+/*about section*/
+.abouts-section{
+  margin-top: 70px;
+  
+}
+.abouts-section .abouts-section-header{
+  font-size: 40px;
+  font-weight: 400;
+}
+.abouts-section .class{
+  margin-bottom: 130px;
+  
+  
+}
+.abouts-section .pic{
+  padding: 10px 0px;
+  width: 100px;
+  height: auto;
+  margin-top: -80px;
+  margin-left: 20px;
+  
+}
+.download-section .h2{
+  margin-right: 10px;
+  
+  
+}
+.download-section .h1{
+  margin-left: 10px;
+box-shadow:4px 4px 30px #8b9092;
+
+  
+}
+/*responsive css start*/
+@media (max-width:576px) {
+.slider-section{
+  padding: 100px 0px;
+  background-size: cover;
+  webkit-align-content: max-width:100%;
+}
+.slider-caption h4{
+  font-size: 15px;
+  padding: 15px 0px;
+ 
+  
+}
+.slider-caption{
+  width: 300px;
+  margin: auto;
+}
+.slider-caption h2{
+  font-size: 20px;
+  padding: 5px 0px;
+  
+}
+.slider-caption .form-control{
+  padding: 5px 10px;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.slider-caption .btn{
+  font-size: 15px;
+  width: 100%;
+  margin-top: 0px;
+  padding: 6px 10px;
+}
+.number-counter-section{
+  margin-top: 20px;
+}
+.number-counter .h2{
+  margin-top: 10px;
+  font-size: 30px;
+  
+}
+.number-counter{
+  width: 100%;
+  text-align: center;
+}
+.about-section-left h2{
+  margin-top: 15px;
+  font-size: 20px;
+  
+}
+.about-section-left p{
+  font-size: 15px;
+  
+  line-height: 1.5rem;
+  
+}
+.abouts-section .class{
+  margin-bottom: 90px;
+  
+  
+}
+.right-text h3{
+  font-size: 20px;
+  
+}
+.right-text p{
+  font-size: 15px;
+}
+.portfolio-text{
+  font-size: 20px;
+  padding: 10px;
+}
+.pricing-table-section-text h2{
+  font-size: 20px;
+}
+.pricing-table-section-text .lead{
+  font-size: 14px;
+}
+.pricing-item .h{
+  font-size: 20px;
+}
+.pricing-item ul li{
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.pricing-item ul li span{
+  color: #6278df;
+  margin-right: 10px;
+  font-size: 18px;
+  
+}
+.pricing-item .btn{
+  margin-top: 5px;
+  border-color: #6278df;
+  border-width: 3px;
+  color: #6278df;
+  font-size: 14px;
+}
+.testimoial-item .no{
+  font-size: 20px;
+  font-weight: 400;
+  
+}
+.quote{
+  font-size: 30px;
+  
+}
+.lead{
+  font-size: 14px;
+}
+.author-info h4{
+  font-size: 15px;
+  font-weight: 400;
+}
+.abouts-section .abouts-section-header{
+  font-size: 20px;
+  font-weight: 400;
+}
+.abouts-section .class{
+  margin-bottom: 90px;
+  
+  
+}
+.abouts-section-item{
+  margin-bottom: 100px;
+}
+.abouts-section .b{
+  margin-top: 90px;
+}
+.abouts-section h2{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.card-body h4{
+  font-size: 16px;
+}
+.card-body h6{
+  font-size: 14px;
+}
+.card-body p{
+  font-size: 12px;
+}
+.contact-section .lead{
+  font-size: 12px;
+}
+.contact-section h2{
+  font-size: 20px;
+  font-weight: 500;
+}
+.card-body form{
+  font-size: 14px;
+}
+.card-body form input{
+  font-size: 12px;
+}
+.download-section h2{
+  font-size: 20px;
+  font-weight: 400;
+}
+footer p{
+  width: 100%;
+  font-size: 10px;
+}
+}
